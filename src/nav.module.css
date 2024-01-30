@@ -1,0 +1,17 @@
+.menuEnter {
+    transform: translateX(-100%);
+}
+  
+.menuEnterActive {
+    transform: translateX(0%);
+    transition: transform 300ms;
+}
+  
+.menuExit {
+    transform: translateX(0%);
+}
+  
+.menuExitActive {
+    transform: translateX(-100%);
+    transition: transform 300ms;
+}
